@@ -416,14 +416,15 @@ function MyBusiness() {
           </div>
           <p className="mt-2 text-sm font-medium leading-6 text-white/70">When you're onboarded to Pitchr, our agent automatically researches and builds a comprehensive intelligence brief on your business - no forms to fill in.</p>
         </div>
-        <nav className="flex flex-wrap border-b border-[#A6FF00]/15 px-5 md:px-7" aria-label="Brief sections">
+        <nav className="grid grid-cols-2 gap-1 border-b border-[#A6FF00]/15 p-3 px-5 md:px-7" aria-label="Brief sections">
           {briefSections.map((section, i) => (
             <button
               key={section.title}
               type="button"
               onClick={() => setActiveSub(i)}
-              className={`border-b-2 px-4 py-2.5 text-xs font-bold tracking-tight transition ${activeSub === i ? 'border-[#A6FF00] text-[#A6FF00]' : 'border-transparent text-white/35 hover:text-white/80'}`}
+              className={`flex items-center gap-2 rounded-lg px-3 py-2 text-left text-xs font-bold transition ${activeSub === i ? 'bg-[#A6FF00]/10 text-[#A6FF00]' : 'text-white/35 hover:bg-white/5 hover:text-white/70'}`}
             >
+              <span className={`h-1.5 w-1.5 shrink-0 rounded-full transition ${activeSub === i ? 'bg-[#A6FF00]' : 'bg-white/20'}`} />
               {section.title}
             </button>
           ))}
