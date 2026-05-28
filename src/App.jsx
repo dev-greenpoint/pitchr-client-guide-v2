@@ -422,7 +422,7 @@ function MyBusiness() {
               key={section.title}
               type="button"
               onClick={() => setActiveSub(i)}
-              className={`flex items-center gap-2 rounded-lg px-3 py-2 text-left text-xs font-bold transition ${activeSub === i ? 'bg-[#A6FF00]/10 text-[#A6FF00]' : 'text-white/35 hover:bg-white/5 hover:text-white/70'}`}
+              className={`flex items-center gap-2 rounded-lg px-3 py-2 text-left text-xs font-bold transition ${activeSub === i ? 'bg-[#A6FF00]/10 text-[#A6FF00]' : 'text-white hover:bg-white/5'}`}
             >
               <span className={`h-1.5 w-1.5 shrink-0 rounded-full transition ${activeSub === i ? 'bg-[#A6FF00]' : 'bg-white/20'}`} />
               {section.title}
