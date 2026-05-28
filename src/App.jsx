@@ -409,7 +409,7 @@ function MyBusiness() {
       <img src="https://res.cloudinary.com/dfers76ex/image/upload/v1779859083/ChatGPT_Image_May_27_2026_03_17_46_PM_lstdvh.png" alt="" className="absolute inset-x-0 bottom-1/2 h-1/2 w-full object-cover object-bottom opacity-30" />
       <div className="absolute inset-0 bg-gradient-to-b from-[#050505]/60 via-transparent to-[#050505]" />
       <div className="relative z-10 flex h-full flex-col">
-        <div className="h-1/2 p-5 pb-0 md:p-7 md:pb-0">
+        <div className="h-1/2 flex flex-col justify-end p-5 pb-0 md:p-7 md:pb-0">
           <div className="flex items-start justify-between">
             <Heading>Your intelligence brief</Heading>
             <Eyebrow>My Business</Eyebrow>
