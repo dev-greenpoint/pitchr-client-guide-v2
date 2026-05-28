@@ -422,7 +422,7 @@ function MyBusiness() {
               key={section.title}
               type="button"
               onClick={() => setActiveSub(i)}
-              className={`border-b-2 px-3 py-2 text-[10px] font-bold tracking-tight transition ${activeSub === i ? 'border-[#A6FF00] text-[#A6FF00]' : 'border-transparent text-white/35 hover:text-white/80'}`}
+              className={`border-b-2 px-4 py-2.5 text-xs font-bold tracking-tight transition ${activeSub === i ? 'border-[#A6FF00] text-[#A6FF00]' : 'border-transparent text-white/35 hover:text-white/80'}`}
             >
               {section.title}
             </button>
