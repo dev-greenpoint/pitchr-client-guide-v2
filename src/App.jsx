@@ -340,7 +340,7 @@ function Campaign() {
               </button>
             ))}
           </div>
-          <div className="mt-14 rounded-[1.35rem] border border-[#A6FF00]/20 bg-white/[0.035] p-5">
+          <div className="mt-14 h-36 overflow-y-auto rounded-[1.35rem] border border-[#A6FF00]/20 bg-white/[0.035] p-5">
             <p key={active} className="animate-[fadeIn_0.24s_ease] text-sm font-medium leading-6 text-white/70">{journey[active][1]}</p>
           </div>
         </div>
@@ -539,13 +539,13 @@ export default function PitchrClientGuide() {
           </div>
         </section>
 
-        <nav className="flex overflow-x-auto border-b border-[#A6FF00]/15 bg-[#050505] px-5 md:px-8" aria-label="Guide navigation">
+        <nav className="flex justify-center gap-0.5 overflow-x-auto border-b border-[#A6FF00]/15 bg-[#050505] px-5 py-2.5 md:px-8" aria-label="Guide navigation">
           {tabs.map((tab, index) => (
             <button
               key={tab}
               type="button"
               onClick={() => goTo(index)}
-              className={`whitespace-nowrap border-b-2 px-4 py-4 text-xs font-bold tracking-tight transition ${cur === index ? 'border-[#A6FF00] text-[#A6FF00]' : 'border-transparent text-white/35 hover:text-white/80'}`}
+              className={`whitespace-nowrap rounded-full px-4 py-1.5 text-xs font-bold tracking-tight transition ${cur === index ? 'bg-[#A6FF00]/10 text-[#A6FF00]' : 'text-white/40 hover:text-white/80'}`}
             >
               {tab}
             </button>
