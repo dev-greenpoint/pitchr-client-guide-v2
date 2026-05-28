@@ -530,7 +530,7 @@ export default function PitchrClientGuide() {
             </div>
             <div className="flex items-start justify-between gap-8">
               <h1 className="text-5xl font-black leading-[0.9] tracking-[-0.07em] text-white md:text-7xl">
-                Welcome to<br /><span className="ml-[92px]">Pitchr</span><span className="text-[#A6FF00]">.</span>
+                Welcome<br />to Pitchr<span className="text-[#A6FF00]">.</span>
               </h1>
               <p className="self-center pl-5 text-sm font-medium leading-6 text-white/60">
                 Everything you need to get started, submit your first brief, and watch your coverage grow in real time.
