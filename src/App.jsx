@@ -429,7 +429,7 @@ function MyBusiness() {
             </button>
           ))}
         </nav>
-        <div className="flex-1 overflow-y-auto p-5 md:p-7">
+        <div className="flex-1 overflow-y-auto px-5 pt-3 pb-2 md:px-7">
           <div key={activeSub} className="animate-[fadeIn_0.24s_ease]">
             <div className="mb-3 flex items-center gap-3">
               <SectionIcon>{briefSections[activeSub].icon}</SectionIcon>
